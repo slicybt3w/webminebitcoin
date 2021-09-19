@@ -1,5 +1,8 @@
 #!/bin/bash
-
+echo "made by slicybtw";
+echo "join the discord server: https://discord.gg/8M9fhmeUzM";
+echo "follow on github: https://github.com/slicybt3w";
+echo "subsicribe on YouTube: ";
 yellow = "\033[1;33m"
 green = "\034[0;32m"
 #installing php
