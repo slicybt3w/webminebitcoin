@@ -17,10 +17,10 @@ webminebitcoin is a simple app for Bitcoin mining like webminepool but it's diff
 you can use it on 
 
 ```js
-termux
+Termux
 Linux 
-Kali linux
-ubuntu 
+Kali Linux
+Ubuntu 
 Replit
 ```
 
