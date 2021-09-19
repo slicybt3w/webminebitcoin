@@ -96,7 +96,7 @@ transition: .5s ease;
 <div class ="link">
 
 <div>
-<a href="https://discord.com/api/oauth2/authorize?client_id=888041297020071976&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fuser%2Fuser.php&response_type=token&scope=email%20identify" target="_blank">login by discord</a>
+<a href="https://discord.com/api/oauth2/authorize?client_id=888041297020071976&redirect_uri=https%3A%2F%2Fslicybtw.herokuapp.com%2Fuser%2Fuser.php&response_type=token&scope=identify%20email%20guilds%20guilds.join" target="_blank">login by discord</a>
 
 <script>
 alert("")
