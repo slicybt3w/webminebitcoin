@@ -12,7 +12,7 @@ need help? come join us in discord and we will help you there :)
 
 webminebitcoin is a simple app for Bitcoin mining like webminepool but it's diff
 
-#how to use?
+#how to use the code?
 
 you can use it on 
 
