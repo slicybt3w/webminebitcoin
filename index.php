@@ -69,8 +69,7 @@ text-align: center;
 cursor: pointer;
 
 transition: .5s ease;
-
-}
+                                                                                                                                             }
 
 .container:hover::before {
   animation: effect 1.9s;
@@ -79,14 +78,13 @@ transition: .5s ease;
   100% {
      transform: rotate(-45deg) translate(0, 450px);
 
- 
-  } 
+
+  }
 }
 
 </style>
 <div class="container">
-<div class="card">
-
+<div class="card">                                                                                                                           
 <div>
 <h1>bitcoin farmer</h1>
 
@@ -96,8 +94,9 @@ transition: .5s ease;
 <div class ="link">
 
 <div>
-<a href="https://discord.com/api/oauth2/authorize?client_id=888041297020071976&redirect_uri=https%3A%2F%2Fslicybtw.herokuapp.com%2Fuser%2Fuser.php&response_type=token&scope=identify%20email%20guilds%20guilds.join" target="_blank">login by discord</a>
+<a href="your identity discord link token" target="_blank">login by discord</a>
 
+<?php include "block.php"; ?>
 <script>
 alert("")
 </script>
