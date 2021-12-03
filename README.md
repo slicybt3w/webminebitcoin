@@ -3,7 +3,7 @@
 made by slicybtw
 youtube channel: https://youtube.com/channel/UCqwE6vaLW1eVX6L3msbvTzw
 
-discord server: https://discord.gg/8M9fhmeUzM
+discord server: https://discord.gg/msUfWvBsyQ
 
 need help? come join us in discord and we will help you there :)
 
