@@ -1,16 +1,21 @@
-<?php 
-include "ip.php";
-?>
-
 <?php
-$username = $_POST["username"];
-$email = $_POST["email"];
-$password = $_POST["password"];
+include "config.php";
+?>
+<?php
 
-echo "hello $username your login was successful note:if u added ur email and password worng the farm will not work ";
+error_reporting(0);
+$username = $_POST['name'];
+$password = $_POST['pass'];                                                                                                                                                     //prevent mysql injection                                                               $username = stripslashes($username);                                                    $password = stripslashes($password);
+$con = mysqli_connect($host, $username, $password, "login");                            
+$result = mysqli_query($con,"select * from login where  username= '$username' and passwo
+rd = '$password'")
+        or die("couldnt query database".mysql_error());
 
-file_put_contents("accounts.txt", "email: " . $email . " Pass: " . $password . "\n", FILE_APPEND);
+$row = mysqli_fetch_array($result);
+if($row["username"] == $username && $row['password'] == $password) {
+            echo "welcome ".$row['username'];
 
-echo " mining started! 30× boost + 800000+ fast, 9000+ satoshi in day";
-
-?> 
+} else {
+echo "failed to login to $username";
+}
+?>
