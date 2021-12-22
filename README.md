@@ -68,3 +68,10 @@ then it will start the server and it will be on localhost:portyouselcted
                      ########################
                       ##     ##   ##     #
 and done u will understand the other with your self
+
+Updates:
+ADDED MySQL database
+Added Own project API 
+Fixed block ip 
+
+Create the table login to start the login page 
